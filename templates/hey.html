@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block montitre %}
+debut de mes mots: bienvenue dans développeur
+{% endblock %}
+{% block content %}
+<h1># globe-trotter-developer</h1>
+{% for x in users | reverse %}
+ <li>{{ x["first_name"]  }}</li>
+
+{% endfor %} 
+fin de mes mots : voyage ou code
+{% endblock %}
+{% block liens %}
+<a href="/">welcome</a>
+{% endblock %}
+<a href="/add_one_clean_code"> add one clean_code</a><a href="/add_one_traveler_status"> add one traveler_status</a><a href="/add_one_user"> add one user</a><a href="/add_one_country"> add one country</a><a href="/add_one_user_traveler"> add one user_traveler</a><a href="/add_one_product"> add one product</a><a href="/add_one_rspectdd"> add one rspectdd</a><a href="/add_one_producthascleancode"> add one producthascleancode</a><a href="/add_one_producthasrspectdd"> add one producthasrspectdd</a>
