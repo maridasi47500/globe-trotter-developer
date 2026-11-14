@@ -1,5 +1,9 @@
 # globe-trotter-developer
 Hey
+- usual action : voyageur destination d'origine fuseau horaire
+- destination arrivee fuseau horaire
+- publie repositories de développement web
+- 
 🌍 Globetrooter — Développeur Ruby on Rails & Voyageur Nomade
 Dusk till Dawn • Celestial Transportation • Code & Road
 Bienvenue dans mon univers.
